@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<sdf version="1.4">
+  <world name="default">
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+    <include>
+      <uri>model://sun</uri>
+      <light>
+        <diffuse>2.0 2.0 2.0 1</diffuse>
+    <specular>1.0 1.0 1.0 1</specular>
+      </light>
+    </include>
+    <model name="my_mesh">
+      <pose>-5.5 -5.5 -0.1  0 0 0</pose>
+      <static>true</static>
+      <link name="body">
+        <visual name="visual">
+          <geometry>
+            <mesh><uri>file:///home/zqh/robot1/robot1_ws/src/fishbot_description/world/scene0000_00_vh_clean_2.dae</uri></mesh>
+          </geometry>
+        </visual>
+        <collision name="visual">
+          <geometry>
+            <mesh><uri>file:///home/zqh/robot1/robot1_ws/src/fishbot_description/world/scene0000_00_vh_clean_2.dae</uri></mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+   
+
+  </world>
+</sdf>
+
+<!-- <light name="additional_light" type="point">
+  <pose>0 0 10 0 0 0</pose> <!-- 光源的位置 -->
+  <diffuse>3.0 3.0 3.0 1</diffuse> <!-- 增加光的亮度 -->
+  <specular>1.0 1.0 1.0 1</specular>
+  <attenuation>
+    <range>50</range>
+    <constant>0.9</constant>
+    <linear>0.01</linear>
+    <quadratic>0.001</quadratic>
+  </attenuation>
+</light> -->

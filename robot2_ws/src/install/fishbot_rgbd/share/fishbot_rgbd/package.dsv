@@ -1,0 +1,6 @@
+source;share/fishbot_rgbd/hook/pythonpath.ps1
+source;share/fishbot_rgbd/hook/pythonpath.dsv
+source;share/fishbot_rgbd/hook/pythonpath.sh
+source;share/fishbot_rgbd/hook/ament_prefix_path.ps1
+source;share/fishbot_rgbd/hook/ament_prefix_path.dsv
+source;share/fishbot_rgbd/hook/ament_prefix_path.sh

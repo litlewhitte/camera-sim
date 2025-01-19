@@ -1,0 +1,63 @@
+<sdf version="1.4">
+  <world name="default">
+    <!-- Add ambient light for overall brightness -->
+    <scene>
+      <ambient>1.0 1.0 1.0 1</ambient> <!-- White ambient light -->
+      <background>0.5 0.5 0.5 1</background> <!-- Light gray background -->
+    </scene>
+
+    <!-- Include the sun model (directional light) -->
+    <include>
+      <uri>model://sun</uri>
+    </include>
+
+    <!-- Include the ground plane model -->
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+
+    <!-- Add additional directional light to enhance the brightness -->
+    <light name="extra_light" type="directional">
+      <pose>0 0 10 0 0 0</pose>
+      <diffuse>1.0 1.0 1.0 1</diffuse> <!-- White light -->
+      <specular>0.5 0.5 0.5 1</specular>
+      <attenuation>
+        <range>100</range>
+        <constant>0.9</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+    </light>
+
+    <!-- Add another point light to provide more local lighting -->
+    <light name="additional_light" type="point">
+      <pose>3 3 3 0 0 0</pose>
+      <diffuse>1.0 1.0 1.0 1</diffuse> <!-- White light -->
+      <specular>0.5 0.5 0.5 1</specular>
+      <attenuation>
+        <range>10</range>
+        <constant>1.0</constant>
+        <linear>0.0</linear>
+        <quadratic>0.0</quadratic>
+      </attenuation>
+    </light>
+
+    <!-- Define the model mp3d1 with its position and static nature -->
+    <model name="mp3d1">
+      <pose>0 0 -0.35  0 0 0</pose>
+      <static>true</static>
+      <link name="up">
+        <visual name="visual">
+          <geometry>
+            <mesh><uri>file:///home/zqh/robot1/robot1_ws/src/fishbot_description/world/mp3d1/untitled.dae</uri></mesh>
+          </geometry>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh><uri>file:///home/zqh/robot1/robot1_ws/src/fishbot_description/world/mp3d1/untitled.dae</uri></mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  </world>
+</sdf>

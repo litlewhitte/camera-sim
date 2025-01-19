@@ -1,0 +1,22 @@
+running egg_info
+writing ../build/fishbot_rgbd/fishbot_rgbd.egg-info/PKG-INFO
+writing dependency_links to ../build/fishbot_rgbd/fishbot_rgbd.egg-info/dependency_links.txt
+writing entry points to ../build/fishbot_rgbd/fishbot_rgbd.egg-info/entry_points.txt
+writing requirements to ../build/fishbot_rgbd/fishbot_rgbd.egg-info/requires.txt
+writing top-level names to ../build/fishbot_rgbd/fishbot_rgbd.egg-info/top_level.txt
+reading manifest file '../build/fishbot_rgbd/fishbot_rgbd.egg-info/SOURCES.txt'
+writing manifest file '../build/fishbot_rgbd/fishbot_rgbd.egg-info/SOURCES.txt'
+running build
+running build_py
+copying fishbot_rgbd/camera_save.py -> /home/zqh/robot2/robot2_ws/src/build/fishbot_rgbd/build/lib/fishbot_rgbd
+running install
+running install_lib
+copying /home/zqh/robot2/robot2_ws/src/build/fishbot_rgbd/build/lib/fishbot_rgbd/camera_save.py -> /home/zqh/robot2/robot2_ws/src/install/fishbot_rgbd/lib/python3.8/site-packages/fishbot_rgbd
+byte-compiling /home/zqh/robot2/robot2_ws/src/install/fishbot_rgbd/lib/python3.8/site-packages/fishbot_rgbd/camera_save.py to camera_save.cpython-38.pyc
+running install_data
+running install_egg_info
+removing '/home/zqh/robot2/robot2_ws/src/install/fishbot_rgbd/lib/python3.8/site-packages/fishbot_rgbd-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../build/fishbot_rgbd/fishbot_rgbd.egg-info to /home/zqh/robot2/robot2_ws/src/install/fishbot_rgbd/lib/python3.8/site-packages/fishbot_rgbd-0.0.0-py3.8.egg-info
+running install_scripts
+Installing camera_node script to /home/zqh/robot2/robot2_ws/src/install/fishbot_rgbd/lib/fishbot_rgbd
+writing list of installed files to '/home/zqh/robot2/robot2_ws/src/build/fishbot_rgbd/install.log'

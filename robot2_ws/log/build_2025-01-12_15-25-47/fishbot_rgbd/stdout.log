@@ -1,0 +1,37 @@
+running egg_info
+creating ../../build/fishbot_rgbd/fishbot_rgbd.egg-info
+writing ../../build/fishbot_rgbd/fishbot_rgbd.egg-info/PKG-INFO
+writing dependency_links to ../../build/fishbot_rgbd/fishbot_rgbd.egg-info/dependency_links.txt
+writing entry points to ../../build/fishbot_rgbd/fishbot_rgbd.egg-info/entry_points.txt
+writing requirements to ../../build/fishbot_rgbd/fishbot_rgbd.egg-info/requires.txt
+writing top-level names to ../../build/fishbot_rgbd/fishbot_rgbd.egg-info/top_level.txt
+writing manifest file '../../build/fishbot_rgbd/fishbot_rgbd.egg-info/SOURCES.txt'
+reading manifest file '../../build/fishbot_rgbd/fishbot_rgbd.egg-info/SOURCES.txt'
+writing manifest file '../../build/fishbot_rgbd/fishbot_rgbd.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/zqh/robot2/robot2_ws/build/fishbot_rgbd/build
+creating /home/zqh/robot2/robot2_ws/build/fishbot_rgbd/build/lib
+creating /home/zqh/robot2/robot2_ws/build/fishbot_rgbd/build/lib/fishbot_rgbd
+copying fishbot_rgbd/camera_save.py -> /home/zqh/robot2/robot2_ws/build/fishbot_rgbd/build/lib/fishbot_rgbd
+copying fishbot_rgbd/__init__.py -> /home/zqh/robot2/robot2_ws/build/fishbot_rgbd/build/lib/fishbot_rgbd
+running install
+running install_lib
+creating /home/zqh/robot2/robot2_ws/install/fishbot_rgbd/lib/python3.8/site-packages/fishbot_rgbd
+copying /home/zqh/robot2/robot2_ws/build/fishbot_rgbd/build/lib/fishbot_rgbd/camera_save.py -> /home/zqh/robot2/robot2_ws/install/fishbot_rgbd/lib/python3.8/site-packages/fishbot_rgbd
+copying /home/zqh/robot2/robot2_ws/build/fishbot_rgbd/build/lib/fishbot_rgbd/__init__.py -> /home/zqh/robot2/robot2_ws/install/fishbot_rgbd/lib/python3.8/site-packages/fishbot_rgbd
+byte-compiling /home/zqh/robot2/robot2_ws/install/fishbot_rgbd/lib/python3.8/site-packages/fishbot_rgbd/camera_save.py to camera_save.cpython-38.pyc
+byte-compiling /home/zqh/robot2/robot2_ws/install/fishbot_rgbd/lib/python3.8/site-packages/fishbot_rgbd/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/zqh/robot2/robot2_ws/install/fishbot_rgbd/share/ament_index
+creating /home/zqh/robot2/robot2_ws/install/fishbot_rgbd/share/ament_index/resource_index
+creating /home/zqh/robot2/robot2_ws/install/fishbot_rgbd/share/ament_index/resource_index/packages
+copying resource/fishbot_rgbd -> /home/zqh/robot2/robot2_ws/install/fishbot_rgbd/share/ament_index/resource_index/packages
+copying package.xml -> /home/zqh/robot2/robot2_ws/install/fishbot_rgbd/share/fishbot_rgbd
+creating /home/zqh/robot2/robot2_ws/install/fishbot_rgbd/share/fishbot_rgbd/config
+copying config/camera_config.yaml -> /home/zqh/robot2/robot2_ws/install/fishbot_rgbd/share/fishbot_rgbd/config
+running install_egg_info
+Copying ../../build/fishbot_rgbd/fishbot_rgbd.egg-info to /home/zqh/robot2/robot2_ws/install/fishbot_rgbd/lib/python3.8/site-packages/fishbot_rgbd-0.0.0-py3.8.egg-info
+running install_scripts
+Installing camera_node script to /home/zqh/robot2/robot2_ws/install/fishbot_rgbd/lib/fishbot_rgbd
+writing list of installed files to '/home/zqh/robot2/robot2_ws/build/fishbot_rgbd/install.log'

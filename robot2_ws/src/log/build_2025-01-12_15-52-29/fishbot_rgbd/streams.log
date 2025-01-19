@@ -1,0 +1,24 @@
+[0.718s] Invoking command in '/home/zqh/robot2/robot2_ws/src/fishbot_rgbd': PYTHONPATH=/home/zqh/robot2/robot2_ws/src/build/fishbot_rgbd/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zqh/robot2/robot2_ws/src/install/fishbot_rgbd/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/fishbot_rgbd build --build-base /home/zqh/robot2/robot2_ws/src/build/fishbot_rgbd/build install --record /home/zqh/robot2/robot2_ws/src/build/fishbot_rgbd/install.log --install-scripts $base/lib/fishbot_rgbd --single-version-externally-managed install_data
+[0.906s] running egg_info
+[0.907s] writing ../build/fishbot_rgbd/fishbot_rgbd.egg-info/PKG-INFO
+[0.914s] writing dependency_links to ../build/fishbot_rgbd/fishbot_rgbd.egg-info/dependency_links.txt
+[0.914s] writing entry points to ../build/fishbot_rgbd/fishbot_rgbd.egg-info/entry_points.txt
+[0.914s] writing requirements to ../build/fishbot_rgbd/fishbot_rgbd.egg-info/requires.txt
+[0.915s] writing top-level names to ../build/fishbot_rgbd/fishbot_rgbd.egg-info/top_level.txt
+[0.959s] reading manifest file '../build/fishbot_rgbd/fishbot_rgbd.egg-info/SOURCES.txt'
+[0.960s] writing manifest file '../build/fishbot_rgbd/fishbot_rgbd.egg-info/SOURCES.txt'
+[0.960s] running build
+[0.960s] running build_py
+[0.960s] copying fishbot_rgbd/camera_save.py -> /home/zqh/robot2/robot2_ws/src/build/fishbot_rgbd/build/lib/fishbot_rgbd
+[0.961s] running install
+[0.961s] running install_lib
+[0.962s] copying /home/zqh/robot2/robot2_ws/src/build/fishbot_rgbd/build/lib/fishbot_rgbd/camera_save.py -> /home/zqh/robot2/robot2_ws/src/install/fishbot_rgbd/lib/python3.8/site-packages/fishbot_rgbd
+[0.963s] byte-compiling /home/zqh/robot2/robot2_ws/src/install/fishbot_rgbd/lib/python3.8/site-packages/fishbot_rgbd/camera_save.py to camera_save.cpython-38.pyc
+[0.965s] running install_data
+[0.965s] running install_egg_info
+[0.967s] removing '/home/zqh/robot2/robot2_ws/src/install/fishbot_rgbd/lib/python3.8/site-packages/fishbot_rgbd-0.0.0-py3.8.egg-info' (and everything under it)
+[0.967s] Copying ../build/fishbot_rgbd/fishbot_rgbd.egg-info to /home/zqh/robot2/robot2_ws/src/install/fishbot_rgbd/lib/python3.8/site-packages/fishbot_rgbd-0.0.0-py3.8.egg-info
+[0.968s] running install_scripts
+[0.982s] Installing camera_node script to /home/zqh/robot2/robot2_ws/src/install/fishbot_rgbd/lib/fishbot_rgbd
+[0.982s] writing list of installed files to '/home/zqh/robot2/robot2_ws/src/build/fishbot_rgbd/install.log'
+[1.011s] Invoked command in '/home/zqh/robot2/robot2_ws/src/fishbot_rgbd' returned '0': PYTHONPATH=/home/zqh/robot2/robot2_ws/src/build/fishbot_rgbd/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zqh/robot2/robot2_ws/src/install/fishbot_rgbd/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/fishbot_rgbd build --build-base /home/zqh/robot2/robot2_ws/src/build/fishbot_rgbd/build install --record /home/zqh/robot2/robot2_ws/src/build/fishbot_rgbd/install.log --install-scripts $base/lib/fishbot_rgbd --single-version-externally-managed install_data

@@ -1,0 +1,34 @@
+[0.679s] Invoking command in '/home/zqh/robot2/robot2_ws/src/fishbot_rgbd': PYTHONPATH=/home/zqh/robot2/robot2_ws/src/build/fishbot_rgbd/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zqh/robot2/robot2_ws/src/install/fishbot_rgbd/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/fishbot_rgbd build --build-base /home/zqh/robot2/robot2_ws/src/build/fishbot_rgbd/build install --record /home/zqh/robot2/robot2_ws/src/build/fishbot_rgbd/install.log --install-scripts $base/lib/fishbot_rgbd --single-version-externally-managed install_data
+[0.706s] Traceback (most recent call last):
+[0.706s]   File "setup.py", line 1, in <module>
+[0.706s]     from setuptools import setup
+[0.706s]   File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 5, in <module>
+[0.712s]     import distutils.core
+[0.712s]   File "/usr/lib/python3.8/distutils/core.py", line 16, in <module>
+[0.712s]     from distutils.dist import Distribution
+[0.712s]   File "/usr/lib/python3.8/distutils/dist.py", line 18, in <module>
+[0.713s]     from distutils.fancy_getopt import FancyGetopt, translate_longopt
+[0.713s]   File "/usr/lib/python3.8/distutils/fancy_getopt.py", line 12, in <module>
+[0.713s]     import getopt
+[0.713s]   File "/usr/lib/python3.8/getopt.py", line 38, in <module>
+[0.713s]     from gettext import gettext as _
+[0.713s]   File "/usr/lib/python3.8/gettext.py", line 74, in <module>
+[0.714s]     _token_pattern = re.compile(r"""
+[0.714s]   File "/usr/lib/python3.8/re.py", line 252, in compile
+[0.714s]     return _compile(pattern, flags)
+[0.714s]   File "/usr/lib/python3.8/re.py", line 304, in _compile
+[0.714s]     p = sre_compile.compile(pattern, flags)
+[0.715s]   File "/usr/lib/python3.8/sre_compile.py", line 764, in compile
+[0.715s]     p = sre_parse.parse(p, flags)
+[0.715s]   File "/usr/lib/python3.8/sre_parse.py", line 948, in parse
+[0.715s]     p = _parse_sub(source, state, flags & SRE_FLAG_VERBOSE, 0)
+[0.715s]   File "/usr/lib/python3.8/sre_parse.py", line 443, in _parse_sub
+[0.715s]     itemsappend(_parse(source, state, verbose, nested + 1,
+[0.716s]   File "/usr/lib/python3.8/sre_parse.py", line 511, in _parse
+[0.716s]     sourceget()
+[0.716s]   File "/usr/lib/python3.8/sre_parse.py", line 256, in get
+[0.716s]     self.__next()
+[0.716s]   File "/usr/lib/python3.8/sre_parse.py", line 234, in __next
+[0.716s]     index = self.index
+[0.717s] KeyboardInterrupt
+[0.718s] Invoked command in '/home/zqh/robot2/robot2_ws/src/fishbot_rgbd' returned '-2': PYTHONPATH=/home/zqh/robot2/robot2_ws/src/build/fishbot_rgbd/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zqh/robot2/robot2_ws/src/install/fishbot_rgbd/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/fishbot_rgbd build --build-base /home/zqh/robot2/robot2_ws/src/build/fishbot_rgbd/build install --record /home/zqh/robot2/robot2_ws/src/build/fishbot_rgbd/install.log --install-scripts $base/lib/fishbot_rgbd --single-version-externally-managed install_data

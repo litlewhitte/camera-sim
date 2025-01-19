@@ -1,0 +1,191 @@
+[0.045s] Invoking command in '/home/zqh/robot2/robot2_ws/src/build/fishbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/zqh/robot2/robot2_ws/src/fishbot_description -DCMAKE_INSTALL_PREFIX=/home/zqh/robot2/robot2_ws/src/install/fishbot_description
+[0.132s] -- The C compiler identification is GNU 9.4.0
+[0.205s] -- The CXX compiler identification is GNU 9.4.0
+[0.212s] -- Check for working C compiler: /usr/bin/cc
+[0.316s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.318s] -- Detecting C compiler ABI info
+[0.448s] -- Detecting C compiler ABI info - done
+[0.461s] -- Detecting C compile features
+[0.461s] -- Detecting C compile features - done
+[0.463s] -- Check for working CXX compiler: /usr/bin/c++
+[0.582s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.584s] -- Detecting CXX compiler ABI info
+[0.708s] -- Detecting CXX compiler ABI info - done
+[0.724s] -- Detecting CXX compile features
+[0.724s] -- Detecting CXX compile features - done
+[0.727s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.757s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.757s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.946s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.024s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.038s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.043s] -- Added test 'lint_cmake' to check CMake code style
+[1.043s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.048s] -- Added test 'xmllint' to check XML markup files
+[1.051s] -- Configuring done
+[1.053s] -- Generating done
+[1.055s] -- Build files have been written to: /home/zqh/robot2/robot2_ws/src/build/fishbot_description
+[1.059s] Invoked command in '/home/zqh/robot2/robot2_ws/src/build/fishbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/zqh/robot2/robot2_ws/src/fishbot_description -DCMAKE_INSTALL_PREFIX=/home/zqh/robot2/robot2_ws/src/install/fishbot_description
+[1.062s] Invoking command in '/home/zqh/robot2/robot2_ws/src/build/fishbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/zqh/robot2/robot2_ws/src/build/fishbot_description -- -j16 -l16
+[1.140s] Invoked command in '/home/zqh/robot2/robot2_ws/src/build/fishbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/zqh/robot2/robot2_ws/src/build/fishbot_description -- -j16 -l16
+[1.145s] Invoking command in '/home/zqh/robot2/robot2_ws/src/build/fishbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/zqh/robot2/robot2_ws/src/build/fishbot_description
+[1.162s] -- Install configuration: ""
+[1.162s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/launch
+[1.164s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/launch/display_robot.launch.py
+[1.164s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/launch/__pycache__
+[1.164s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/launch/__pycache__/display_robot.launch.cpython-38.pyc
+[1.165s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/launch/gazebo_sim.launch.py
+[1.166s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/urdf
+[1.166s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/urdf/first_robot.gv
+[1.166s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/urdf/fishbot
+[1.166s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/urdf/fishbot/base.urdf.xacro
+[1.166s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/urdf/fishbot/fishbot.urdf.xacro
+[1.166s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/urdf/fishbot/fishbot.ros2_control.xacro
+[1.166s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/urdf/fishbot/plugins
+[1.167s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/urdf/fishbot/plugins/gazebo_control_plugin.xacro
+[1.167s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/urdf/fishbot/plugins/gazebo_sensor_plugin.xacro
+[1.167s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/urdf/fishbot/actuator
+[1.167s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/urdf/fishbot/actuator/caster.urdf.xacro
+[1.167s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/urdf/fishbot/actuator/wheel.urdf.xacro
+[1.167s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/urdf/fishbot/sensor
+[1.167s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/urdf/fishbot/sensor/camera.urdf.xacro
+[1.167s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/urdf/fishbot/sensor/imu.urdf.xacro
+[1.167s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/urdf/fishbot/sensor/laser.urdf.xacro
+[1.168s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/urdf/fishbot/common_inertia.xacro
+[1.168s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/urdf/first_robot.urdf
+[1.168s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/urdf/first_robot.pdf
+[1.168s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/urdf/first_robot.xacro
+[1.168s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/config
+[1.169s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/config/display_robot_model.rviz
+[1.169s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/config/fishbot_ros2_controller.yaml
+[1.169s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world
+[1.169s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/room
+[1.169s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/room/model.config
+[1.169s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/room/model.sdf
+[1.169s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/mp3d1
+[1.169s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/mp3d1/b94039b4eb8947bdb9ff5719d9173eae_031.jpg
+[1.170s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/mp3d1/b94039b4eb8947bdb9ff5719d9173eae_040.jpg
+[1.170s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/mp3d1/b94039b4eb8947bdb9ff5719d9173eae_086.jpg
+[1.171s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/mp3d1/b94039b4eb8947bdb9ff5719d9173eae_008.jpg
+[1.173s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/mp3d1/b94039b4eb8947bdb9ff5719d9173eae_085.jpg
+[1.175s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/mp3d1/mp3d1.world
+[1.175s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/mp3d1/b94039b4eb8947bdb9ff5719d9173eae_043.jpg
+[1.176s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/mp3d1/b94039b4eb8947bdb9ff5719d9173eae_013.jpg
+[1.176s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/mp3d1/b94039b4eb8947bdb9ff5719d9173eae_084.jpg
+[1.177s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/mp3d1/b94039b4eb8947bdb9ff5719d9173eae_007.jpg
+[1.178s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/mp3d1/b94039b4eb8947bdb9ff5719d9173eae_045.jpg
+[1.178s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/mp3d1/b94039b4eb8947bdb9ff5719d9173eae_082.jpg
+[1.180s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/mp3d1/b94039b4eb8947bdb9ff5719d9173eae_001.jpg
+[1.180s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/mp3d1/b94039b4eb8947bdb9ff5719d9173eae_059.jpg
+[1.181s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/mp3d1/b94039b4eb8947bdb9ff5719d9173eae_009.jpg
+[1.181s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/mp3d1/b94039b4eb8947bdb9ff5719d9173eae_068.jpg
+[1.182s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/mp3d1/b94039b4eb8947bdb9ff5719d9173eae_019.jpg
+[1.182s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/mp3d1/b94039b4eb8947bdb9ff5719d9173eae_047.jpg
+[1.183s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/mp3d1/b94039b4eb8947bdb9ff5719d9173eae_048.jpg
+[1.184s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/mp3d1/b94039b4eb8947bdb9ff5719d9173eae_015.jpg
+[1.184s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/mp3d1/b94039b4eb8947bdb9ff5719d9173eae_087.jpg
+[1.185s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/mp3d1/b94039b4eb8947bdb9ff5719d9173eae_018.jpg
+[1.186s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/mp3d1/b94039b4eb8947bdb9ff5719d9173eae_083.jpg
+[1.187s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/mp3d1/b94039b4eb8947bdb9ff5719d9173eae_060.jpg
+[1.188s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/mp3d1/b94039b4eb8947bdb9ff5719d9173eae_028.jpg
+[1.188s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/mp3d1/b94039b4eb8947bdb9ff5719d9173eae_066.jpg
+[1.189s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/mp3d1/b94039b4eb8947bdb9ff5719d9173eae_052.jpg
+[1.189s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/mp3d1/b94039b4eb8947bdb9ff5719d9173eae_081.jpg
+[1.190s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/mp3d1/b94039b4eb8947bdb9ff5719d9173eae_053.jpg
+[1.191s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/mp3d1/b94039b4eb8947bdb9ff5719d9173eae_080.jpg
+[1.192s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/mp3d1/b94039b4eb8947bdb9ff5719d9173eae_011.jpg
+[1.192s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/mp3d1/b94039b4eb8947bdb9ff5719d9173eae_054.jpg
+[1.193s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/mp3d1/b94039b4eb8947bdb9ff5719d9173eae.obj
+[1.240s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/mp3d1/b94039b4eb8947bdb9ff5719d9173eae_022.jpg
+[1.240s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/mp3d1/b94039b4eb8947bdb9ff5719d9173eae_027.jpg
+[1.241s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/mp3d1/b94039b4eb8947bdb9ff5719d9173eae_006.jpg
+[1.242s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/mp3d1/untitled.dae
+[1.339s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/mp3d1/b94039b4eb8947bdb9ff5719d9173eae_065.jpg
+[1.339s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/mp3d1/b94039b4eb8947bdb9ff5719d9173eae_049.jpg
+[1.340s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/mp3d1/b94039b4eb8947bdb9ff5719d9173eae_005.jpg
+[1.340s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/mp3d1/b94039b4eb8947bdb9ff5719d9173eae_020.jpg
+[1.341s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/mp3d1/b94039b4eb8947bdb9ff5719d9173eae_041.jpg
+[1.342s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/mp3d1/b94039b4eb8947bdb9ff5719d9173eae_032.jpg
+[1.343s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/mp3d1/b94039b4eb8947bdb9ff5719d9173eae_089.jpg
+[1.344s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/mp3d1/b94039b4eb8947bdb9ff5719d9173eae_076.jpg
+[1.344s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/mp3d1/b94039b4eb8947bdb9ff5719d9173eae_000.jpg
+[1.345s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/mp3d1/b94039b4eb8947bdb9ff5719d9173eae_035.jpg
+[1.345s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/mp3d1/b94039b4eb8947bdb9ff5719d9173eae_074.jpg
+[1.346s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/mp3d1/b94039b4eb8947bdb9ff5719d9173eae_038.jpg
+[1.347s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/mp3d1/b94039b4eb8947bdb9ff5719d9173eae_036.jpg
+[1.348s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/mp3d1/mp3d1.dae
+[1.445s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/mp3d1/b94039b4eb8947bdb9ff5719d9173eae_023.jpg
+[1.446s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/mp3d1/b94039b4eb8947bdb9ff5719d9173eae_071.jpg
+[1.447s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/mp3d1/b94039b4eb8947bdb9ff5719d9173eae_042.jpg
+[1.447s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/mp3d1/b94039b4eb8947bdb9ff5719d9173eae_070.jpg
+[1.448s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/mp3d1/b94039b4eb8947bdb9ff5719d9173eae_017.jpg
+[1.449s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/mp3d1/mp3d1.config
+[1.449s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/mp3d1/b94039b4eb8947bdb9ff5719d9173eae.mtl
+[1.449s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/mp3d1/b94039b4eb8947bdb9ff5719d9173eae_072.jpg
+[1.450s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/mp3d1/b94039b4eb8947bdb9ff5719d9173eae_012.jpg
+[1.451s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/mp3d1/b94039b4eb8947bdb9ff5719d9173eae_094.jpg
+[1.451s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/mp3d1/b94039b4eb8947bdb9ff5719d9173eae_091.jpg
+[1.452s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/mp3d1/b94039b4eb8947bdb9ff5719d9173eae_010.jpg
+[1.452s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/mp3d1/b94039b4eb8947bdb9ff5719d9173eae_046.jpg
+[1.453s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/mp3d1/b94039b4eb8947bdb9ff5719d9173eae_079.jpg
+[1.453s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/mp3d1/b94039b4eb8947bdb9ff5719d9173eae_090.jpg
+[1.455s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/mp3d1/b94039b4eb8947bdb9ff5719d9173eae_037.jpg
+[1.455s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/mp3d1/b94039b4eb8947bdb9ff5719d9173eae_002.jpg
+[1.456s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/mp3d1/b94039b4eb8947bdb9ff5719d9173eae_039.jpg
+[1.456s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/mp3d1/b94039b4eb8947bdb9ff5719d9173eae_067.jpg
+[1.457s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/mp3d1/b94039b4eb8947bdb9ff5719d9173eae_064.jpg
+[1.458s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/mp3d1/b94039b4eb8947bdb9ff5719d9173eae_075.jpg
+[1.458s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/mp3d1/b94039b4eb8947bdb9ff5719d9173eae_069.jpg
+[1.459s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/mp3d1/b94039b4eb8947bdb9ff5719d9173eae_056.jpg
+[1.460s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/mp3d1/b94039b4eb8947bdb9ff5719d9173eae_061.jpg
+[1.461s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/mp3d1/b94039b4eb8947bdb9ff5719d9173eae_025.jpg
+[1.461s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/mp3d1/b94039b4eb8947bdb9ff5719d9173eae_051.jpg
+[1.462s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/mp3d1/b94039b4eb8947bdb9ff5719d9173eae_030.jpg
+[1.462s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/mp3d1/b94039b4eb8947bdb9ff5719d9173eae_093.jpg
+[1.463s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/mp3d1/b94039b4eb8947bdb9ff5719d9173eae_088.jpg
+[1.465s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/mp3d1/b94039b4eb8947bdb9ff5719d9173eae_050.jpg
+[1.465s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/mp3d1/b94039b4eb8947bdb9ff5719d9173eae_024.jpg
+[1.466s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/mp3d1/b94039b4eb8947bdb9ff5719d9173eae_063.jpg
+[1.466s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/mp3d1/b94039b4eb8947bdb9ff5719d9173eae_057.jpg
+[1.469s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/mp3d1/b94039b4eb8947bdb9ff5719d9173eae_092.jpg
+[1.471s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/mp3d1/b94039b4eb8947bdb9ff5719d9173eae_033.jpg
+[1.472s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/mp3d1/b94039b4eb8947bdb9ff5719d9173eae_014.jpg
+[1.473s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/mp3d1/b94039b4eb8947bdb9ff5719d9173eae_034.jpg
+[1.475s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/mp3d1/b94039b4eb8947bdb9ff5719d9173eae_055.jpg
+[1.475s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/mp3d1/b94039b4eb8947bdb9ff5719d9173eae_016.jpg
+[1.476s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/mp3d1/b94039b4eb8947bdb9ff5719d9173eae_021.jpg
+[1.477s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/mp3d1/b94039b4eb8947bdb9ff5719d9173eae_077.jpg
+[1.478s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/mp3d1/b94039b4eb8947bdb9ff5719d9173eae_078.jpg
+[1.478s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/mp3d1/b94039b4eb8947bdb9ff5719d9173eae_073.jpg
+[1.479s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/mp3d1/b94039b4eb8947bdb9ff5719d9173eae_004.jpg
+[1.480s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/mp3d1/b94039b4eb8947bdb9ff5719d9173eae_062.jpg
+[1.481s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/mp3d1/b94039b4eb8947bdb9ff5719d9173eae_029.jpg
+[1.481s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/mp3d1/b94039b4eb8947bdb9ff5719d9173eae_026.jpg
+[1.482s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/mp3d1/b94039b4eb8947bdb9ff5719d9173eae_044.jpg
+[1.483s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/mp3d1/b94039b4eb8947bdb9ff5719d9173eae_058.jpg
+[1.483s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/mp3d1/b94039b4eb8947bdb9ff5719d9173eae_003.jpg
+[1.484s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/custom_room.world
+[1.484s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/office.world
+[1.484s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/scannet1.world
+[1.484s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/house.world
+[1.484s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/custom_room_1.world
+[1.484s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/scene0000_00_vh_clean_2.dae
+[1.523s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/house.dae
+[1.548s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/generate.world
+[1.549s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/world/scene0000_00_vh_clean_2_tex.png
+[1.562s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/ament_index/resource_index/package_run_dependencies/fishbot_description
+[1.562s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/ament_index/resource_index/parent_prefix_path/fishbot_description
+[1.562s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/environment/ament_prefix_path.sh
+[1.563s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/environment/ament_prefix_path.dsv
+[1.563s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/environment/path.sh
+[1.563s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/environment/path.dsv
+[1.563s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/local_setup.bash
+[1.563s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/local_setup.sh
+[1.564s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/local_setup.zsh
+[1.564s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/local_setup.dsv
+[1.564s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/package.dsv
+[1.564s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/ament_index/resource_index/packages/fishbot_description
+[1.564s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/cmake/fishbot_descriptionConfig.cmake
+[1.565s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/cmake/fishbot_descriptionConfig-version.cmake
+[1.565s] -- Installing: /home/zqh/robot2/robot2_ws/src/install/fishbot_description/share/fishbot_description/package.xml
+[1.568s] Invoked command in '/home/zqh/robot2/robot2_ws/src/build/fishbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/zqh/robot2/robot2_ws/src/build/fishbot_description

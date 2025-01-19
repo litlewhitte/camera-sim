@@ -1,0 +1,59 @@
+[0.046s] Invoking command in '/home/zqh/robot2/robot2_ws/build/fishbot_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/zqh/robot2/robot2_ws/src/fishbot_navigation2 -DCMAKE_INSTALL_PREFIX=/home/zqh/robot2/robot2_ws/install/fishbot_navigation2
+[0.141s] -- The C compiler identification is GNU 9.4.0
+[0.220s] -- The CXX compiler identification is GNU 9.4.0
+[0.223s] -- Check for working C compiler: /usr/bin/cc
+[0.338s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.340s] -- Detecting C compiler ABI info
+[0.448s] -- Detecting C compiler ABI info - done
+[0.457s] -- Detecting C compile features
+[0.457s] -- Detecting C compile features - done
+[0.459s] -- Check for working CXX compiler: /usr/bin/c++
+[0.588s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.592s] -- Detecting CXX compiler ABI info
+[0.720s] -- Detecting CXX compiler ABI info - done
+[0.736s] -- Detecting CXX compile features
+[0.737s] -- Detecting CXX compile features - done
+[0.740s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.766s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.766s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.966s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.053s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.055s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.056s] -- Added test 'lint_cmake' to check CMake code style
+[1.056s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.058s] -- Added test 'xmllint' to check XML markup files
+[1.060s] -- Configuring done
+[1.062s] -- Generating done
+[1.063s] -- Build files have been written to: /home/zqh/robot2/robot2_ws/build/fishbot_navigation2
+[1.068s] Invoked command in '/home/zqh/robot2/robot2_ws/build/fishbot_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/zqh/robot2/robot2_ws/src/fishbot_navigation2 -DCMAKE_INSTALL_PREFIX=/home/zqh/robot2/robot2_ws/install/fishbot_navigation2
+[1.072s] Invoking command in '/home/zqh/robot2/robot2_ws/build/fishbot_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/zqh/robot2/robot2_ws/build/fishbot_navigation2 -- -j16 -l16
+[1.150s] Invoked command in '/home/zqh/robot2/robot2_ws/build/fishbot_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/zqh/robot2/robot2_ws/build/fishbot_navigation2 -- -j16 -l16
+[1.156s] Invoking command in '/home/zqh/robot2/robot2_ws/build/fishbot_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/zqh/robot2/robot2_ws/build/fishbot_navigation2
+[1.169s] -- Install configuration: ""
+[1.169s] -- Installing: /home/zqh/robot2/robot2_ws/install/fishbot_navigation2/share/fishbot_navigation2/launch
+[1.170s] -- Installing: /home/zqh/robot2/robot2_ws/install/fishbot_navigation2/share/fishbot_navigation2/launch/navigation2.launch.py
+[1.170s] -- Installing: /home/zqh/robot2/robot2_ws/install/fishbot_navigation2/share/fishbot_navigation2/config
+[1.170s] -- Installing: /home/zqh/robot2/robot2_ws/install/fishbot_navigation2/share/fishbot_navigation2/config/nav2_params.yaml
+[1.176s] -- Installing: /home/zqh/robot2/robot2_ws/install/fishbot_navigation2/share/fishbot_navigation2/maps
+[1.176s] -- Installing: /home/zqh/robot2/robot2_ws/install/fishbot_navigation2/share/fishbot_navigation2/maps/scannet1.yaml
+[1.176s] -- Installing: /home/zqh/robot2/robot2_ws/install/fishbot_navigation2/share/fishbot_navigation2/maps/mp3d1_2.yaml
+[1.177s] -- Installing: /home/zqh/robot2/robot2_ws/install/fishbot_navigation2/share/fishbot_navigation2/maps/house.yaml
+[1.177s] -- Installing: /home/zqh/robot2/robot2_ws/install/fishbot_navigation2/share/fishbot_navigation2/maps/mp3d1_2.pgm
+[1.178s] -- Installing: /home/zqh/robot2/robot2_ws/install/fishbot_navigation2/share/fishbot_navigation2/maps/scannet1.pgm
+[1.179s] -- Installing: /home/zqh/robot2/robot2_ws/install/fishbot_navigation2/share/fishbot_navigation2/maps/house.pgm
+[1.179s] -- Installing: /home/zqh/robot2/robot2_ws/install/fishbot_navigation2/share/ament_index/resource_index/package_run_dependencies/fishbot_navigation2
+[1.179s] -- Installing: /home/zqh/robot2/robot2_ws/install/fishbot_navigation2/share/ament_index/resource_index/parent_prefix_path/fishbot_navigation2
+[1.180s] -- Installing: /home/zqh/robot2/robot2_ws/install/fishbot_navigation2/share/fishbot_navigation2/environment/ament_prefix_path.sh
+[1.180s] -- Installing: /home/zqh/robot2/robot2_ws/install/fishbot_navigation2/share/fishbot_navigation2/environment/ament_prefix_path.dsv
+[1.180s] -- Installing: /home/zqh/robot2/robot2_ws/install/fishbot_navigation2/share/fishbot_navigation2/environment/path.sh
+[1.180s] -- Installing: /home/zqh/robot2/robot2_ws/install/fishbot_navigation2/share/fishbot_navigation2/environment/path.dsv
+[1.180s] -- Installing: /home/zqh/robot2/robot2_ws/install/fishbot_navigation2/share/fishbot_navigation2/local_setup.bash
+[1.181s] -- Installing: /home/zqh/robot2/robot2_ws/install/fishbot_navigation2/share/fishbot_navigation2/local_setup.sh
+[1.181s] -- Installing: /home/zqh/robot2/robot2_ws/install/fishbot_navigation2/share/fishbot_navigation2/local_setup.zsh
+[1.181s] -- Installing: /home/zqh/robot2/robot2_ws/install/fishbot_navigation2/share/fishbot_navigation2/local_setup.dsv
+[1.181s] -- Installing: /home/zqh/robot2/robot2_ws/install/fishbot_navigation2/share/fishbot_navigation2/package.dsv
+[1.181s] -- Installing: /home/zqh/robot2/robot2_ws/install/fishbot_navigation2/share/ament_index/resource_index/packages/fishbot_navigation2
+[1.182s] -- Installing: /home/zqh/robot2/robot2_ws/install/fishbot_navigation2/share/fishbot_navigation2/cmake/fishbot_navigation2Config.cmake
+[1.182s] -- Installing: /home/zqh/robot2/robot2_ws/install/fishbot_navigation2/share/fishbot_navigation2/cmake/fishbot_navigation2Config-version.cmake
+[1.182s] -- Installing: /home/zqh/robot2/robot2_ws/install/fishbot_navigation2/share/fishbot_navigation2/package.xml
+[1.185s] Invoked command in '/home/zqh/robot2/robot2_ws/build/fishbot_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/zqh/robot2/robot2_ws/build/fishbot_navigation2

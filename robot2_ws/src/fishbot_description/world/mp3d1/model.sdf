@@ -1,0 +1,16 @@
+<sdf version="1.6">
+  <model name="mp3d1">
+    <link name="up">
+      <visual name="visual">
+        <geometry>
+          <mesh><uri>model://mp3d1/untitled.dae</uri></mesh>
+        </geometry>
+      </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh><uri>model://mp3d1/untitled.dae</uri></mesh>
+        </geometry>
+      </collision>
+    </link>
+  </model>
+</sdf>
